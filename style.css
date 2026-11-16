@@ -16,11 +16,11 @@ body {
 
 .container {
     background-color: white;
-    padding: 40px;
+    padding: 35px;
     border-radius: 15px;
     text-align: center;
     width: 90%;
-    max-width: 500px;
+    max-width: 450px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -29,7 +29,45 @@ h1 {
     margin-bottom: 15px;
 }
 
-p {
+.container p {
     color: #555;
-    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #2874a6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b4f72;
+}
+
+#resultado {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
 }
