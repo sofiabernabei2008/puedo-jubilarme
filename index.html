@@ -11,7 +11,21 @@
 
     <div class="container">
         <h1>🚀 ¿Puedo Jubilarme?</h1>
-        <p>Descubrí si estás en edad de jubilarte en Argentina.</p>
+        <p>Descubrí si estás en edad de jubilarte.</p>
+
+        <label for="edad">Ingresá tu edad:</label>
+        <input type="number" id="edad" placeholder="Ejemplo: 60">
+
+        <label for="sexo">Seleccioná tu sexo:</label>
+        <select id="sexo">
+            <option value="">Seleccionar</option>
+            <option value="mujer">Mujer</option>
+            <option value="hombre">Hombre</option>
+        </select>
+
+        <button id="calcular">Consultar</button>
+
+        <p id="resultado"></p>
     </div>
 
     <script src="script.js"></script>
