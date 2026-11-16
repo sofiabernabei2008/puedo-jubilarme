@@ -7,16 +7,19 @@
     <title>¿Puedo Jubilarme?</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="container">
+
         <h1>🚀 ¿Puedo Jubilarme?</h1>
-        <p>Descubrí si estás en edad de jubilarte.</p>
 
-        <label for="edad">Ingresá tu edad:</label>
-        <input type="number" id="edad" placeholder="Ejemplo: 60">
+        <p>Ingresá tus datos para saber si estás en edad de jubilarte.</p>
 
-        <label for="sexo">Seleccioná tu sexo:</label>
+        <label for="edad">¿Cuántos años tenés?</label>
+        <input type="number" id="edad" placeholder="Ingresá tu edad">
+
+        <label for="sexo">Seleccioná tu género:</label>
         <select id="sexo">
             <option value="">Seleccionar</option>
             <option value="mujer">Mujer</option>
@@ -25,9 +28,11 @@
 
         <button id="calcular">Consultar</button>
 
-        <p id="resultado"></p>
+        <h2 id="resultado"></h2>
+
     </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
